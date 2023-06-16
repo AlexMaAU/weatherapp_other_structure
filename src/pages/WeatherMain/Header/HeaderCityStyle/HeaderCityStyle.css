@@ -1,0 +1,15 @@
+.headerCityStyle {
+    color: rgb(116, 115, 115);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.headerCityStyle::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: rgb(116, 115, 115);
+    display: block;
+    margin-top: 10px;
+}

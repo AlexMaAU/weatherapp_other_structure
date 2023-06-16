@@ -1,0 +1,5 @@
+.headerSection {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}

@@ -1,0 +1,20 @@
+.cityWeather {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.metaSection {
+    display: flex;
+    color: rgb(116, 115, 115);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+.border {
+    width: 2px;
+    height: 30px;
+    background-color: rgb(116, 115, 115);
+}
