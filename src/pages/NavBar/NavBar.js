@@ -1,16 +1,17 @@
 import {Link, Route, Routes} from 'react-router-dom'
+import './NavBar.css'
 
 const NavBar = ()=>{
     return (
-        <div>
-            <Link to='/'>Home</Link>
-            <Link to='/cities'>Other City</Link>
-            <Link to='/about'>About</Link>
+        <div className='navBar'>
+            <Link to='/'>HOME</Link>
+            <Link to='/cities'>OTHER CITIES</Link>
+            <Link to='/about'>ABOUT</Link>
             <Routes>
-                <Route index element={<Home/>} />
-                <Route path='/cities' element={<Header/>} />
-                <Route path='/about' element={<h1>About</h1>} />
-                <Route path='*' element={<h1>Not Found</h1>} /> 
+                <Route index element={<></>} />
+                <Route path='/cities' element={<></>} />
+                <Route path='/about' element={<></>} />
+                <Route path='*' element={<></>} /> 
             </Routes>
         </div>
     )

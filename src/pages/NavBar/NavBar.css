@@ -1,0 +1,20 @@
+.navBar {
+    background-color: rgb(70, 180, 244);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 25px 0;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(253, 252, 252);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(3, 113, 223);
+}

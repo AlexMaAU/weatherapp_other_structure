@@ -1,6 +1,10 @@
+import './WeatherIcon.css'
+
 const WeatherIcon = ()=>{
     return (
-        <div>Icon</div>
+        <div className='weatherIcon'>
+            Icon
+        </div>
     )
 }
 
