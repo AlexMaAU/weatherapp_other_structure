@@ -1,0 +1,13 @@
+.weatherMain {
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(240, 240, 240);    
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.subSection {
+    display: flex;
+    justify-content: space-around;
+    height: 253px;
+}
